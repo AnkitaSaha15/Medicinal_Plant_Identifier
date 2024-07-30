@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Centuary;
+}
+
+header{
+    background-image: url(../static/images/Ayurvedicplant3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    display: flex;
+    align-items:first baseline;
+}
+nav{
+    background-color: rgb(55, 137, 50);
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: 64px;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:solid;
+    color: rgb(11, 11, 12);
+    padding: 0.5px 20px;
+    border: 0px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: rgb(6, 210, 142);
+    color: rgb(0, 4, 3);
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.button{
+    position: absolute;
+    top: 0%;
+    right: 0.5%;
+}
+
+.btn:hover{
+    background-color: rgb(6, 210, 142);
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h3{
+    color: rgb(160, 131, 73);
+    font-size: 70px;
+}
+main {
+    flex: 10%;
+    /* Set the width of the main content */
+    background-color: rgb(226, 247, 175);
+    /* White background color */
+  }
+
+
+  section {
+    text-align: center;
+    padding: 6px;
+  }
+
+  section h1 {
+    margin-bottom: 50px;
+  }
+
+  section h1 span {
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: #fff;
+    background: rgb(150, 169, 8);
+    /* fallback for old browsers */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .img_val {
+    float: right;
+    width: 17%;
+    height: 60%;
+  }
+  .values h1 {
+    font-family: collier, sans-serif;
+    color: #D1A272;
+    text-align: left;
+  }
+  .values ul li {
+    display: list-item;
+    list-style-type: disc;
+  }
+  .img_deg {
+    float: right;
+    width: 30%;
+    height: 120%;
+  }
+  .benefits h2 {
+    font-family: collier, sans-serif;
+    color: #D1A272;
+    text-align: left;
+  }
+  .benefits{
+    padding: 15px;
+  }
+  footer {
+    /* Hide overflow */
+    flex: 100%;
+    background-color: black;
+    /* Dark background color */
+  }
+  footer a{
+    float: left;
+    background-color: #000000;
+    display: block;
+    color: #f4f2f2;
+    text-align: center;
+    padding: 14px 84px;
+  }
+  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--FontAwesome icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ayurvedic Medicinal Plants And Raw Materials</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <a class="logo navbar-btn pull-left">
+                <img src="../static/images/Ayurvedicplant1.jpg">
+            </a>
+        <div class="main">
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/home">ABOUT US</a></li>
+                <li><a href="#">SHOPS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            <li><form action="search-bar">
+                <input type="text" placeholder="search anything" name="q">
+                <button type="submit"></button>
+            </form></li>
+        </div>
+        <div class="button">
+            <a href="/login" class="btn"><i class="fa fa-file-image-o" aria-hidden="true"></i>LOGIN</a>
+            <a href="/FrontPage" class="btn"><i class="fa fa-file-image-o" aria-hidden="true"></i>UPLOAD IMAGE</a>
+            <a href="/FrontPage" class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>UPLOAD VIDEO</a>
+            <a href="/webcam" class="btn"><i class="fa fa-video-camera" aria-hidden="true"></i>WEB CAM</a>
+        </div>
+        </nav>
+        <div class="title">
+            <h3>DETECT MEDICINAL PLANTS WITHIN SECONDS</h3>
+        </div>
+    </header>
+    <main>
+<section class="Ayurveda">
+<h1><span>Ayurvedic & Medicinal Plants</span></h1>
+<h3>What's inside is what matters the most</h3>
+<div class="about-us">
+<p><b>Ayurveda, rooted in nature, offers a simple solution to our fast-paced lifestyle, promoting health and energy through small daily changes.</p></b><br>
+<p><b>Indian Ayurved, a natural healing method, uses medicinal plants and herbs like aloe, turmeric, and ginger for various ailments, renowned for their non-toxic properties and therapeutic value.</p></b><br>
+<p><b>Treatment with herbal medicinal plants also hold a strong ground because these plants are considered to be safe and have no side effects. Since they are in sync with nature, they hold greater advantage over chemically treated products and synthetic medicines. As opposed to other drugs and medicines, Ayurvedic herbs are known to treat the disease from the root and thus aid in keeping you healthy and fit in the long run.</p></b><br>
+</div>
+</section>
+<div class="values">
+    <img class="img_val" src="../static/images/Ayurvedicplant2.jpg">
+    <p><h1>Ayurvedic Herbs/Spices & Their Medicinal Values</h1><br>
+    <ul>
+        <li><h5>Ayurvedic Herbs and spices such as black pepper, cinnamon, aloe, sandalwood, ginseng, red clover, burdock, bayberry, and safflower are used to heal wounds, sores and boils.</h5></li>
+        <li><h5>To reduce fever and the production of heat caused by the condition, certain antipyretic herbs such as Chirayta, black pepper and sandal wood are recommended</h5></li>
+        <li><h5>Sandalwood and Cinnamon are great astringents apart from being aromatic. Sandalwood is especially used in arresting the discharge of blood, mucus etc.</h5></li>
+        <li><h5>Ajwain, Amalaki, Aswatha etc., serve as antacids and are recommended for healthy gastric acid flow and proper digestion</h5></li>
+        <li><h5>Herbs like Cardamom and Coriander are renowned for their appetizing qualities. Other aromatic herbs such as peppermint, cloves and turmeric add a pleasant aroma to the food, thereby increasing the taste of the meal</h5></li>
+        <li><h5>Herbs like Aloe, Sandalwood, Turmeric, Sheetraj and Khare Khaskhas are commonly used as antiseptic and have very high medicinal values</h5></li>
+        <li><h5>Camomile, Basil, Cardamom, Ginger, Peppermint and Coriander are known to promote blood circulation in the body and keep the heart healthy</h5></li>
+    </ul></p>
+</div>
+<div class="benefits">
+    <img class="img_deg" src="../static/images/Ayurvedicplant.jpg">
+    <p><h2>Benefits & Importance of Medicinal Plants</h2><br>
+    <h5>Ayurvedic herbs are time tested for their health and other benefits. The nutritive value that they pack are highly recommended for their healing powers. Known to induce no side effects, they have a unique aroma and flavor and when consumed regularly, they act as a perfect mechanism to bring about a balanced harmony between mind and body. They rejuvenate the whole system instead of focusing on one specific organ or body part.<br>
+        <br>
+        They have a holistic approach and aid in proper absorption and digestion.<br><br>
+        They are not disease specific but act as a preventive medicine that positively effects the overall health and well-being by boosting the immune system.<br><br>
+        They are at par with allopathic medicines and are at times known to be effective in treating diseases like cancer and autoimmune diseases.<br><br>
+        They are self-contained and nutritive holistic in nature, therefore, are non-toxic and harmless.<br><br>
+        It deals with the overall well-being and aims to bring harmony between mind, body and soul.<br><br>
+        Several metabolic and chronic conditions can be treated without any side effects using Ayurvedic medicines and treatments.<br><br></h5></p>
+</div>
+</main>
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+    <a href="#" class="flex-align-left">&copy; 2023 | Ayurveda</a>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+      })
+    </script>
+
+</body>
+</html>
